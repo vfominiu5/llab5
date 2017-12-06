@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Articles on personal growth, entrepreneurship and psychology</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+<p> </p>
+    <div class="container-fluid menu">
+        <div class="row">
+            <h1 class="col-md-6"> IMPROVE YOURSELF WITH US </h1>
+            <div class="col-md-16"></div>
+            <div class="col-md-2 menu-button">
+                <a href="/articles/"><p>ARTICLES</p></a>
+            </div>
+            <div class="col-md-2 menu-button">
+                <a href="/mems/"><p>MEMS</p></a>
+            </div>
+            </div>
+    </div>
+
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+
+
+
+    <p class="fig"><img src="{% static 'img/mems/1.jpg' %}" alt="Foto not found"></p>
+    <p class="fig"><img src="{% static 'img/mems/2.jpg' %}" alt="Foto not found"></p>
+    <p class="fig"><img src="{% static 'img/mems/3.jpg' %}" alt="Foto not found"></p>
+    <p class="fig"><img src="{% static 'img/mems/4.jpg' %}" alt="Foto not found"></p>
+    <p class="fig"><img src="{% static 'img/mems/5.jpg' %}" alt="Foto not found"></p>p
+
+</body>
+</html>
